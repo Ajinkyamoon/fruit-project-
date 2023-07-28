@@ -22,7 +22,7 @@
         </button>
       </div>
       <div class="flex space-x-4 md:hidden">
-        <img src="logo.png" alt="Logo" class="h-10 w-10 rounded-full">
+        <img src="./images/logo.png" alt="Logo" class="h-10 w-10 rounded-full">
         <p class="text-white font-bold text-lg">Logo Text</p>
       </div>
       <div class="hidden md:flex md:space-x-4">
@@ -354,35 +354,59 @@
   </div>
   <div>
     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-  <div class="flex flex-col">
-    <span class="countdown font-mono text-5xl">
-      <span style="--value:15;">;</span>
-    </span>
+      <div class="flex flex-col">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:15;">;</span>
+      </span>
     days
-  </div> 
-  <div class="flex flex-col">
-    <span class="countdown font-mono text-5xl">;
-      <span style="--value:10;">;</span>
-    </span>
+    </div> 
+      <div class="flex flex-col">
+      <span class="countdown font-mono text-5xl">;
+        <span style="--value:10;">;</span>
+      </span>
     hours
-  </div> 
-  <div class="flex flex-col">
-    <span class="countdown font-mono text-5xl">;
-      <span style="--value:24;"></span>
-    </span>
+    </div> 
+    <div class="flex flex-col">
+      <span class="countdown font-mono text-5xl">;
+        <span style="--value:24;"></span>
+      </span>
     min
-  </div> 
-  <div class="flex flex-col">
-    <span class="countdown font-mono text-5xl">;
-      <span style="--value:51;"></span>
-    </span>
+    </div> 
+   <div class="flex flex-col">
+      <span class="countdown font-mono text-5xl">;
+        <span style="--value:51;"></span>
+      </span>
     sec
+    </div>
   </div>
-</div>
     
-  </div>
 </div>
-<div class="card w-36 bg-base-100 shadow-xl">
+
+<div>
+  <div class="card w-36 bg-base-100 shadow-xl">
+    <figure><img src="./images/fruit6.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">18-36$</h2>
+      <p>fruit</p>
+      <div class="rating rating-lg rating-half">
+        <input type="radio" name="rating-10" class="rating-hidden" />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+.      <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+       <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+      </div>
+    </div>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary bg-pink-500 text-white">Details</button>
+    </div>
+  </div>
+  <div class="card w-36 bg-base-100 shadow-xl">
   <figure><img src="./images/fruit6.png" alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title">18-36$</h2>
@@ -405,6 +429,43 @@
     </div>
   </div>
 </div>
+
+  <footer class="bg-black py-8">
+    <div class="container mx-auto text-white">
+      <!-- First Line -->
+      <div class="flex items-center justify-center">
+        <img src="./images/logo.png" alt="Fruit Burst Logo" class="w-8 h-8 mr-2">
+        <h2 class="text-2xl font-bold">Fruit Burst</h2>
+      </div>
+
+      <!-- Second Line -->
+      <div class="flex flex-wrap items-center justify-center mt-4 space-x-4 sm:space-x-8">
+        <a href="#" class="text-white">Home</a>
+        <a href="#" class="text-white">About Us</a>
+        <a href="#" class="text-white">Shop</a>
+        <a href="#" class="text-white">All Fruits</a>
+        <a href="#" class="text-white">Support</a>
+        <a href="#" class="text-white">My Amount</a>
+      </div>
+
+      <!-- Third Line -->
+      <div class="flex items-center justify-center mt-4 space-x-4">
+        <a href="#" class="text-white">
+          <i class="fab fa-facebook-square text-2xl"></i>
+        </a>
+        <a href="#" class="text-white">
+          <i class="fab fa-twitter-square text-2xl"></i>
+        </a>
+        <a href="#" class="text-white">
+          <i class="fab fa-youtube-square text-2xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Include the daisyUI JS (Required for Icons) -->
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-v2-components@2.14.1/dist/index.min.js"></script>
+
 
 
 </body>
