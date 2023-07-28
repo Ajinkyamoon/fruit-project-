@@ -1,3 +1,6 @@
-body {
-    font-size: 15pt;
+/* Add the background image using CSS */
+.bg-image-team {
+  background-image: url("./images/team.png");
+  background-size: cover;
+  background-position: center;
 }
